@@ -26,7 +26,7 @@ module.exports = {
     algolia: {
       appId: '8J64VVRP8K',
       apiKey: 'a18e2f4cc5665f6602c5631fd868adfd',
-      indexName: 'Astrolab'
+      indexName: 'Vitepress'
       // indexName: string
       // placeholder?: string
       // searchParameters?: any
@@ -69,67 +69,67 @@ function createHead() {
  */
 function createNav() {
   return [
-    {
-      text: 'Guide',
-      link: '/guide/',
-      items: [
-        {
-          text: 'Guide',
-          link: '/guide/introduction',
-        },
-        {
-          text: 'Advanced',
-          link: '/dep/icon',
-        },
-        {
-          text: 'FAQ',
-          link: '/other/faq',
-        },
-      ],
-    },
-    {
-      text: 'Component',
-      link: '/components/',
-      items: [
-        {
-          text: 'Get started',
-          link: '/components/introduction',
-        },
-        {
-          text: 'Global component',
-          link: '/components/glob/button',
-        },
-        {
-          text: 'Common component',
-          link: '/components/basic',
-        },
-        {
-          text: 'Functional component',
-          link: '/components/functional/context-menu',
-        },
-      ],
-    },
-    {
-      text: 'Links',
-      items: [
-        {
-          text: 'App',
-          link: 'https://astrolab.fi',
-        },
-        {
-          text: 'Github',
-          link: 'https://github.com/AstrolabFinance',
-        },
-        {
-          text: 'Docs Sources',
-          link: 'https://github.com/AstrolabFinance/docs',
-        },
-        {
-          text: 'Docs Changelog',
-          link: 'https://github.com/AstrolabFinance/docs/blob/main/CHANGELOG.md',
-        },
-      ],
-    },
+    // {
+    //   text: 'Guide',
+    //   link: '/guide/',
+    //   items: [
+    //     {
+    //       text: 'Guide',
+    //       link: '/guide/introduction',
+    //     },
+    //     {
+    //       text: 'Advanced',
+    //       link: '/dep/icon',
+    //     },
+    //     {
+    //       text: 'FAQ',
+    //       link: '/other/faq',
+    //     },
+    //   ],
+    // },
+    // {
+    //   text: 'Component',
+    //   link: '/components/',
+    //   items: [
+    //     {
+    //       text: 'Get started',
+    //       link: '/components/introduction',
+    //     },
+    //     {
+    //       text: 'Global component',
+    //       link: '/components/glob/button',
+    //     },
+    //     {
+    //       text: 'Common component',
+    //       link: '/components/basic',
+    //     },
+    //     {
+    //       text: 'Functional component',
+    //       link: '/components/functional/context-menu',
+    //     },
+    //   ],
+    // },
+    // {
+    //   text: 'Links',
+    //   items: [
+    //     {
+    //       text: 'App',
+    //       link: 'https://astrolab.fi',
+    //     },
+    //     {
+    //       text: 'Github',
+    //       link: 'https://github.com/AstrolabFinance',
+    //     },
+    //     {
+    //       text: 'Docs Sources',
+    //       link: 'https://github.com/AstrolabFinance/docs',
+    //     },
+    //     {
+    //       text: 'Docs Changelog',
+    //       link: 'https://github.com/AstrolabFinance/docs/blob/main/CHANGELOG.md',
+    //     },
+    //   ],
+    // },
   ];
 }
 
