@@ -7,7 +7,7 @@ module.exports = {
   base: '/',
   title: 'Astrolab',
   lang: 'en-US',
-  description: 'Network generic yield optimizer',
+  description: 'Omnichain yield aggregator',
   head: createHead(),
 
   themeConfig: {
@@ -307,6 +307,15 @@ function createSidebar() {
       },
     ],
     '/': [
+      {
+        text: 'Introduction',
+        children: [
+          {
+            text: 'What is Astrolab Finance?',
+            link: '/docs/introduction',
+          }
+        ]
+      },
       {
         text: 'Guide',
         children: [
