@@ -312,109 +312,28 @@ function createSidebar() {
         children: [
           {
             text: 'What is Astrolab Finance?',
-            link: '/docs/introduction',
+            link: '/introduction/overview',
           }
         ]
       },
       {
-        text: 'Guide',
+        text: 'Tokenomics',
         children: [
           {
-            text: 'Get started',
-            link: '/guide/introduction',
+          text: '$ASL Utility',
+          link: '/tokenomics/utility'
           },
           {
-            text: 'start',
-            link: '/guide/',
-          },
-          {
-            text: 'Project configuration',
-            link: '/guide/settings',
-          },
-          {
-            text: 'Routing',
-            link: '/guide/router',
-          },
-          {
-            text: 'Menu',
-            link: '/guide/menu',
-          },
-          {
-            text: 'Authority',
-            link: '/guide/auth',
-          },
-          {
-            text: 'Mock&Tune',
-            link: '/guide/mock',
-          },
-          {
-            text: 'Component registration',
-            link: '/guide/component',
-          },
-          {
-            text: 'style',
-            link: '/guide/design',
-          },
-          {
-            text: 'External module',
-            link: '/guide/lib',
-          },
-          {
-            text: 'Build & Deployment',
-            link: '/guide/deploy',
-          },
-          {
-            text: 'Electron',
-            link: '/guide/electron',
-          },
-        ],
+            text: 'Securing the protocol',
+            link: '/tokenomics/safety'
+            },
+            {
+              text: 'Distribution',
+              link: '/tokenomics/distribution'
+              }
+        ]
       },
-      {
-        text: 'Advanced',
-        children: [
-          {
-            text: 'Cross-origin',
-            link: '/dep/cors',
-          },
-          {
-            text: 'Icons',
-            link: '/dep/icon',
-          },
-          {
-            text: 'Locales',
-            link: '/dep/i18n',
-          },
-          {
-            text: 'Project norm',
-            link: '/dep/lint',
-          },
-          {
-            text: 'Dark theme',
-            link: '/dep/dark',
-          },
-        ],
-      },
-      {
-        text: 'Other',
-        children: [
-          {
-            text: 'Common issues',
-            link: '/other/faq',
-          },
-          {
-            text: 'Common doubts',
-            link: '/other/doubt',
-          },
-          {
-            text: 'Testnet',
-            link: '/other/server',
-          },
-          {
-            text: 'Related project',
-            link: '/other/project',
-          },
-        ],
-      },
+      
     ],
   };
 }

@@ -2,7 +2,7 @@
 home: true
 heroImage: /logo.png
 actionText: Docs →
-actionLink: /docs/introduction
+actionLink: /introduction/overview
 
 altActionText: App
 altActionLink: https://astrolab.fi
