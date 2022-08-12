@@ -3,8 +3,11 @@
 ## Quick Start
 
 ```bash
+# Install pnpm
+$ npm install -g pnpm
+
 # Clone docs sources
-$ git clone git@github.com:AstrolabFinance/docs.git
+$ git clone https://github.com/AstrolabFinance/yo-docs
 
 # Install dependencies with pnpm
 $ pnpm install

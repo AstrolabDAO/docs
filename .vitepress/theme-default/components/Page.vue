@@ -43,10 +43,12 @@
     padding: 0 1.5rem 4rem;
     padding: 0.025rem 0rem 2rem 0;
     width: calc(100% - var(--slug-width));
+
   }
 
   .content {
     padding-bottom: 1.5rem;
+    max-width: 1000px;
   }
 
   @media (max-width: 420px) {

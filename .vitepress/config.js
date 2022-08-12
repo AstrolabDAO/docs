@@ -333,6 +333,35 @@ function createSidebar() {
               }
         ]
       },
+      {
+        text: 'Keeping Astrolab safe',
+        children: [
+          {
+          text: 'Why?',
+          link: '/safu/why'
+          },
+          {
+           text: 'Insurance',
+           link: '/safu/insurance'
+          },
+          {
+            text: 'Help safeguarding the protocol',
+            link: '/safu/safety'
+           },
+           {
+            text: 'Audits',
+            link: '/safu/audits'
+           },
+           {
+            text: 'Bug bounty',
+            link: '/safu/bounty'
+           },
+           {
+            text: 'Emergency pause',
+            link: '/safu/emergency'
+           }, 
+        ]
+      }
       
     ],
   };
