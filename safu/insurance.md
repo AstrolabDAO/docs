@@ -4,10 +4,10 @@ Crates are insured by $ASL stakers, who can choose which risk level they want to
 
 This mechanism protects the $ASL value and the staker's holdings by avoiding to auction tokens on the market like Aave does. Because the affected crate will now get a new "free" income stream, its APR will increase, making it more attractive to new users. Compensation isn't done immediately, however it's scalable by ensuring the losses have a way to be recovered over time whatever the amount of the losses. Given that Crates allocate the funds to multiple pools, risk is sharded and should prevent a total loss of funds.
 
-Parameters used to compute the compensation schedule are defined by governance, to keep the balance between staking incentives and protocol de-risking.
-
 Events covered are the following:
 - Oracle malfunctionning
-- Bad debt
-- Bug, or malfunction of the Crate or the investment pool
+- Bad debt on one the Crate's strategies
+- Bug, or malfunction of the Crate or of one the Crate's strategies
 - Theft of funds locked in the contract
+
+Parameters used to compute the compensation schedule and the events covered are defined by governance, to keep the balance between staking incentives and protocol de-risking.

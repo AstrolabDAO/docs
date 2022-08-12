@@ -12,7 +12,7 @@ A classic solution also comes in the form of insurance, already well-known in ce
 
 Insurance protocols themselves face problems evaluating risks in an industry speed-running in a few months the last hundred years of financial innovations, without regulations or law enforcement possible. As protocols grow, so does insurance costs, and the lack of scalability becomes soon a problem.
 
-In Astrolab's case, given that Crates interacts with many different protocols, it's hard for an outsider to evaluate risk properly and on the go. Astrolab's solution is thus to use the protocol's revenue to insure itself.
+In Astrolab's case, given that Crates interacts with many different protocols, it's hard for an outsider to evaluate risk properly and on the go. Astrolab's solution is thus to insure itself.
 
 
 
