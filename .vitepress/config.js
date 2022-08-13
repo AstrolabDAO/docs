@@ -3,7 +3,6 @@
  * @type {import('vitepress').UserConfig}
  */
 module.exports = {
-
   base: '/',
   title: 'Astrolab',
   lang: 'en-US',
@@ -26,7 +25,7 @@ module.exports = {
     algolia: {
       appId: '8J64VVRP8K',
       apiKey: 'a18e2f4cc5665f6602c5631fd868adfd',
-      indexName: 'Vitepress'
+      indexName: 'Vitepress',
       // indexName: string
       // placeholder?: string
       // searchParameters?: any
@@ -313,56 +312,60 @@ function createSidebar() {
           {
             text: 'What is Astrolab Finance?',
             link: '/introduction/overview',
-          }
-        ]
+          },
+        ],
       },
       {
         text: 'Tokenomics',
         children: [
           {
-          text: '$ASL Utility',
-          link: '/tokenomics/utility'
+            text: '$ASL Utility',
+            link: '/tokenomics/utility',
           },
           {
             text: 'Securing the protocol',
-            link: '/tokenomics/safety'
-            },
-            {
-              text: 'Distribution',
-              link: '/tokenomics/distribution'
-              }
-        ]
+            link: '/tokenomics/safety',
+          },
+          {
+            text: 'Distribution',
+            link: '/tokenomics/distribution',
+          },
+        ],
       },
       {
         text: 'Keeping Astrolab safe',
         children: [
           {
-          text: 'Why?',
-          link: '/safu/why'
+            text: 'Why?',
+            link: '/safu/why',
           },
           {
-           text: 'Insurance',
-           link: '/safu/insurance'
+            text: 'Insurance mechanism',
+            link: '/safu/insurance',
           },
           {
-            text: 'Help safeguarding the protocol',
-            link: '/safu/safety'
-           },
-           {
+            text: 'Managing risk',
+            link: '/safu/risk-management',
+          },
+
+          {
             text: 'Audits',
-            link: '/safu/audits'
-           },
-           {
+            link: '/safu/audits',
+          },
+          {
             text: 'Bug bounty',
-            link: '/safu/bounty'
-           },
-           {
+            link: '/safu/bounty',
+          },
+          {
             text: 'Emergency pause',
-            link: '/safu/emergency'
-           }, 
-        ]
-      }
-      
+            link: '/safu/emergency',
+          },
+          {
+            text: 'Disclaimer',
+            link: '/safu/risk-assessement',
+          },
+        ],
+      },
     ],
   };
 }

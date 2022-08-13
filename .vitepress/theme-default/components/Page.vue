@@ -48,7 +48,7 @@
 
   .content {
     padding-bottom: 1.5rem;
-    max-width: 1000px;
+    max-width: 850px;
   }
 
   @media (max-width: 420px) {
