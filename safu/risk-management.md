@@ -1,4 +1,4 @@
-# Managing risk together
+# Managing risk
 
 Astrolab's smart contract risks can be divided in two categories:
 
@@ -15,7 +15,9 @@ Governance can vote to order new audits and decide to fund measures such as bug 
 
 ## Farming risks
 
-Given that Astrolab's core product consists in yield aggregation, the protocol is exposed to third-party risk when it deposits assets into farming pools. Internal auditing and due diligence should be done before adding a new pool to a Crate's portfolio, and enough diversification should allow to reduce exposure. Each pool should be given a grade, which would be used to defined the general portfolio of each Crate. A "conservative" Crate shouldn't deposit into a "risky" pool, and an "aggressive" Crate should limit its exposure to it, as long as it isn't considered safe enough.
+Given that Astrolab's core product consists in yield aggregation, the protocol is exposed to third-party risk when it deposits assets into farming pools. Internal auditing and due diligence should be done before adding a new pool to a Crate's portfolio, and enough diversification should allow to reduce exposure. 
+
+Each pool is given a grade, which would be used to defined the general portfolio of each Crate. A "conservative" Crate shouldn't deposit into a "risky" pool, and an "aggressive" Crate should limit its exposure to it, as long as it isn't considered safe enough.
 
 Smart contract risk assessment needs human intervention and can't be fully automated. The core team and the community can thus step in to assess each pool's risk and help define the best portfolio for each Crate. 
 

@@ -7,4 +7,4 @@ The $ASL utility is threefold:
 - Revenue sharing
 - Protocol governance
 
-[Click here to learn more about the insurance mechanism](/tokenomics/safety.html).
+[Click here to learn more about the insurance mechanism](/safu/insurance.html).

@@ -313,6 +313,10 @@ function createSidebar() {
             text: 'What is Astrolab Finance?',
             link: '/introduction/overview',
           },
+          {
+            text: 'FAQ',
+            link: '/introduction/faq',
+          },
         ],
       },
       {
@@ -329,6 +333,36 @@ function createSidebar() {
           {
             text: 'Distribution',
             link: '/tokenomics/distribution',
+          },
+        ],
+      },
+      {
+        text: 'Product',
+        children: [
+          {
+            text: 'Crates',
+            link: '/product/crates',
+          },
+          {
+            text: 'Architecture',
+            link: '/product/architecture',
+          },
+        ],
+      },
+      {
+        text: 'Development',
+        children: [
+          {
+            text: 'Interacting with crates',
+            link: '/developers/crates',
+          },
+          {
+            text: 'Writing a strategy',
+            link: '/developers/strategy',
+          },
+          {
+            text: 'Contracts',
+            link: '/developers/contracts',
           },
         ],
       },
@@ -366,6 +400,7 @@ function createSidebar() {
           },
         ],
       },
+
     ],
   };
 }
