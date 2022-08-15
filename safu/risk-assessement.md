@@ -1,6 +1,6 @@
 # Disclaimer
 
-TODO: Update this
+*TODO: Took it from aura finance, to have a reference, needs to be updated.*
 
 Aura Finance Protocol has been built with safety and security in mind. However, there are inherent risks when interacting with any DeFi smart contracts. Our contributors have vigorously reviewed its smart contracts, and also pursued external auditors to identify potential vulnerabilities in the platform prior to launch. Even so, the possibility of losing some or all of your funds is present for certain risks as further discussed below. 
 

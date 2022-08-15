@@ -334,6 +334,10 @@ function createSidebar() {
             text: 'Distribution',
             link: '/tokenomics/distribution',
           },
+          {
+            text: 'Fees and revenue',
+            link: '/tokenomics/fees',
+          },
         ],
       },
       {
@@ -346,6 +350,10 @@ function createSidebar() {
           {
             text: 'Architecture',
             link: '/product/architecture',
+          },
+          {
+            text: 'Ecosystem',
+            link: '/product/ecosystem',
           },
         ],
       },
