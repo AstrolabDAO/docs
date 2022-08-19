@@ -4,7 +4,7 @@ Astrolab Finance is a omnichain yield aggregator that allows its users to invest
 
 Astrolab achieves this by leveraging state-of-the-art cross-chain messaging technologies, which allow defi protocols on different chains to communicate and exchange value. Because everything is done on-chain in a decentralized way, users remain in full control of their capital and can invest and withdraw anytime they want, in a permissionless and trustless manner. One of the best features of Defi is composability, and Astrolab is being built with the long term goal to fullymerge with the EVM ecosystem.
 
-[Click here to learn more about Astrolab composability.]()
+<!-- [Click here to learn more about Astrolab composability.]() -->
 
 # Astrolab's Crates
 
@@ -12,7 +12,7 @@ Crates are the main product of Astrolab. They correspond to multichain, multipoo
 
 After depositing their assets, users get a Crate Token, which acts like a proof-of-deposit, and which can be redeemed anytime for its underlying value. Crate tokens follow the ERC4626 standard and can be used as a collateral in other defi protocols by users wanting to improve their capital efficiency. 
 
-[Click here to learn more about how Crates's design.]()
+<!-- [Click here to learn more about how Crates's design.]() -->
 
 # What is $ASL?
 
@@ -22,4 +22,4 @@ By staking $ASL, users can insure Crates while earning a share of the protocol's
 
 This mechanism creates a snowball effect, where $ASL holders help improve the safety of the protocol, while users get costless insurance and lower risk profile for their investment. **Astrolab strongly believes that good governance comes with skin in the game and should align with the protocol's values - profitability and safety**.
 
-[Click here to learn more about how tokenomics reduces the protocol's risk.]()
+<!-- [Click here to learn more about how tokenomics reduces the protocol's risk.]() -->
