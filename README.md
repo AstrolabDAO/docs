@@ -13,5 +13,5 @@ $ git clone https://github.com/AstrolabFinance/yo-docs
 $ pnpm install
 
 # Run dev server
-$ pnpm dev
+$ pnpm docs:dev
 ```
