@@ -344,12 +344,16 @@ function createSidebar() {
         text: 'Product',
         children: [
           {
-            text: 'Crates',
-            link: '/product/crates',
+            text: 'Crates 101',
+            link: '/product/crates101',
           },
           {
             text: 'Architecture',
             link: '/product/architecture',
+          },
+          {
+            text: 'Composability',
+            link: '/product/composability'
           },
           {
             text: 'Ecosystem',
