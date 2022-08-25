@@ -4,7 +4,7 @@
 
 Crates gather yield from protocols scattered around the EVM galaxy. Here is the list of connected pools and the parameters chosen for each Crate.
 
-**[This is a mock, as no Crate have been deployed yet]**
+**[This is a mock, as no Crate has been deployed yet]**
 
 **Conservative USDC**
 ````

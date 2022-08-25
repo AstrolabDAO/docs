@@ -18,4 +18,4 @@ Pool    0x...   Avax    Benqi USDC
 
 ## Help
 
-Need help? Comme to the [Discord](https://discord.gg/bEcwmegMPt) and we'll answer your questions!
+Need help? Come to [Discord](https://discord.gg/bEcwmegMPt) and we'll answer your questions!

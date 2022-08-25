@@ -1,6 +1,6 @@
 # Write a strategy for Astrolab
 
-WIP
+WIP - Will be written when the smart contract framework for development & testing is stable.
 
 # Structure
 
