@@ -317,27 +317,31 @@ function createSidebar() {
             text: 'FAQ',
             link: '/introduction/faq',
           },
+          {
+            text: 'Links',
+            link: '/introduction/links',
+          },
         ],
       },
       {
         text: 'Tokenomics',
         children: [
           {
-            text: '$ASL Utility',
-            link: '/tokenomics/utility',
+            text: '$ASL',
+            link: '/tokenomics/asl',
           },
           {
-            text: 'Securing the protocol',
-            link: '/tokenomics/safety',
-          },
-          {
-            text: 'Distribution',
-            link: '/tokenomics/distribution',
+            text: 'Governance',
+            link: '/tokenomics/governance',
           },
           {
             text: 'Fees and revenue',
             link: '/tokenomics/fees',
           },
+          {
+            text: '💫 Flywheel',
+            link: '/tokenomics/flywheel'
+          }
         ],
       },
       {
@@ -352,12 +356,8 @@ function createSidebar() {
             link: '/product/architecture',
           },
           {
-            text: 'Composability',
-            link: '/product/composability'
-          },
-          {
-            text: 'Ecosystem',
-            link: '/product/ecosystem',
+            text: 'Composition',
+            link: '/product/composition',
           },
         ],
       },
@@ -366,7 +366,7 @@ function createSidebar() {
         children: [
           {
             text: 'Interacting with crates',
-            link: '/developers/crates',
+            link: '/developers/interaction',
           },
           {
             text: 'Writing a strategy',

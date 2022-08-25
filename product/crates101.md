@@ -29,6 +29,16 @@ This mechanism has the following advantages:
 
 Rebalancings can still be done however, if needed or if the pool ordering drastically changes.
 
+## Risk level
+
+Due to the multiple avalaible opportunities possible when multichain farming, the risk/reward profile of each pool isn't homogeneous. Astrolab's Crates thus have a risk indicator: "Conservative" or "Aggressive".
+
+- **Conservative Crates** focus on older, battle tested protocols that are proven to bring a solid yield.
+
+- **Aggressive Crates** hunt for higher APRs and may farm newer or more experimental protocols. Some more complex strategies may also be used with the aggressive crates.
+
+In both cases, protocols connected to Crates will forgo an internal audit and some discussion in the community, to ensure Crate's maximum safety. If a pool becomes too risky, it's possible to disconnect it and withdraw any funds provided.
+
 ## Fees
 
 15-22% performance fees, depending on the Crate from the generated yield are kept by the protocol. Currently, Astrolab charges no management fee, although it can be increased through governance if deemed necessary.

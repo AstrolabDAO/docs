@@ -1,3 +1,3 @@
 # Audits
 
-(Coming after audits are done)
+(Coming soon)
