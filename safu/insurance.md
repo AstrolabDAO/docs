@@ -15,7 +15,7 @@ Locked tokens are returned to their owners after the loss has been compensated, 
 
 *Example*:
 
-"Aggressive" $ASL staking pool insures CrateA, CrateB and CrateC. Kaneda has staked 100k $ASL in it, which earns him 50k$ in DAI per year. The pool has 1M $ASL and earn 500k$ per year on average.
+"Aggressive" $ASL staking pool insures CrateA, CrateB and CrateC. Kaneda has staked 100k $ASL in it, which earns him 50k$ in DAI per year. The pool has 1M $ASL and earns 500k$ per year on average.
 
 One of the strategies of CrateA has an unexpected loss. The Aave fork it was investing had a faulty oracle, and 100k$ of funds are lost, which is 5% of the total managed by the Crate. Share price and market price for the Crate token immediately decreases by 5%.
 
@@ -23,12 +23,12 @@ One of the strategies of CrateA has an unexpected loss. The Aave fork it was inv
 
 ---
 
-This mechanism protects the $ASL value and the staker's holdings by avoiding to auction tokens on the market like Aave does. Because the affected crate will now get a new income stream, its APR will increase, making it more attractive to new users. Compensation isn't done immediately, however it's scalable by ensuring crates can be made whole.
+This mechanism protects the $ASL value and the staker's holdings by avoiding auctionning tokens on the market like Aave does. Because the affected crate will now get a new income stream, its APR will increase, making it more attractive to new users. Compensation isn't done immediately, it is however scalable by ensuring crates can be made whole.
 
 Events covered are the following:
-- Oracle malfunctionning
+- Oracle malfunctioning
 - Bad debt on one the Crate's strategies
-- Bug, or malfunction of the Crate or of one the Crate's strategies
+- Bug, or malfunction of the Crate or one of the Crate's strategies
 - Theft of funds locked in the contract
 
 Parameters used to compute the compensation schedule and the events covered are defined by governance, to keep the balance between staking incentives and protocol de-risking.

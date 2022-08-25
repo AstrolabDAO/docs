@@ -12,10 +12,10 @@ module.exports = {
   themeConfig: {
     repo: 'https://github.com/AstrolabFinance',
     docsRepo: 'https://github.com/AstrolabFinance/docs',
-    twitter: 'https://twitter.com/@AstrolabFinance',
+    twitter: 'https://twitter.com/AstrolabFinance',
     medium: 'https://medium.com/@AstrolabFinance',
     telegram: 'https://t.me/astrolab',
-    discord: 'https://discord.com/invite/astrolab',
+    discord: 'https://discord.gg/UpYeDkWSff',
     logo: '/logo.png',
     docsBranch: 'main',
     editLinks: true,
