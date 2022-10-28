@@ -1,0 +1,39 @@
+{
+  "name": "astrolab-docs",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/AstrolabFinance/docs",
+  "author": "Astrolab Tech <tech@astrolab.fi>",
+  "license": "Apache 2",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:serve": "vitepress serve"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2",
+    "vite": "^2.9.9",
+    "vite-plugin-components": "^0.10.4",
+    "vite-plugin-icons": "^0.6.3",
+    "vite-plugin-windicss": "^1.1.1",
+    "vitepress": "^0.14.1",
+    "windicss": "^3.1.3"
+  },
+  "dependencies": {
+    "@algolia/client-search": "^4.14.2",
+    "@docsearch/css": "^3.1.0",
+    "@docsearch/js": "^3.1.0",
+    "@iconify/json": "^1.1.362",
+    "@vueuse/core": "^5.0.3",
+    "vue": "^3.2.36"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "react",
+        "react-dom",
+        "@types/react"
+      ]
+    }
+  }
+}
