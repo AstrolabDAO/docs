@@ -1,7 +1,7 @@
 <template>
   <header v-if="showHero" class="home-hero">
-    <figure v-if="$frontmatter.heroImage" class="figure">
-      <img class="image" :src="$withBase($frontmatter.heroImage)" :alt="$frontmatter.heroAlt" />
+    <figure class="figure">
+      <img class="image" :src="isDark ? $withBase($frontmatter.heroImageDark) : $withBase($frontmatter.heroImageLight)" :alt="$frontmatter.heroAlt" />
     </figure>
 
     <h1 v-if="hasHeroText" id="main-title" class="title">{{ heroText }}</h1>
@@ -22,12 +22,14 @@
 </template>
 
 <script setup lang="ts">
-  import { computed } from 'vue';
+  import { computed, onBeforeUnmount, ref } from 'vue';
   import { useSiteDataByRoute, useFrontmatter } from 'vitepress';
   import NavLink from './NavLink.vue';
 
   const site = useSiteDataByRoute();
   const data = useFrontmatter();
+  const checkDark = () => document.documentElement.classList.contains('dark');
+  const isDark = ref(checkDark());
 
   const showHero = computed(() => {
     return data.value.heroImage || hasHeroText.value || hasTagline.value || hasAction.value;
@@ -41,6 +43,19 @@
 
   const hasAction = computed(() => data.value.actionLink && data.value.actionText);
   const hasAltAction = computed(() => data.value.altActionLink && data.value.altActionText);
+
+  const observer = new MutationObserver(() => {
+    isDark.value = checkDark();
+  });
+
+  observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ['class'],
+  });
+
+  onBeforeUnmount(() => {
+    observer.disconnect();
+  });
 </script>
 
 <style scoped>

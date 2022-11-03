@@ -4,7 +4,7 @@ This section is a work in progress as the Astrolab team is currently working to 
 
 ## Interface
 
-Crates' interface is compliant with the [ERC4626 standard](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#ERC4626)
+Crates' interface is compliant with the [ERC-4626 standard](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#ERC4626)
 
 ## Estimating gas for withdrawal
 
@@ -22,4 +22,4 @@ If only one chainId appears and is the one of the home chain (ex: 1 for Ethereum
 
 APRs can be computed analytically by recovering the individual APRs from each strategy and using their share of liquidity to calculate a weighted average. APRs can also be calculated empirically by comparing the last two share values.
 
-(Coming soon: graph from The Graph and Dune dashboard)
+(Coming soon: graph from The Graph and Dune dashboard.)

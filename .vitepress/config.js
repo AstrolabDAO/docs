@@ -16,8 +16,9 @@ module.exports = {
     medium: 'https://medium.com/@AstrolabFi',
     telegram: 'https://t.me/astrolab',
     discord: 'https://discord.gg/UpYeDkWSff',
-    logo: '/logo.png',
-    docsBranch: 'main',
+    logoLight: '/logo-light.png',
+    logoDark: '/logo-dark.png',
+    docsBranch: 'master',
     editLinks: true,
     editLinkText: 'Sources',
     nav: createNav(),
@@ -170,7 +171,7 @@ function createSidebar() {
             link: '/safu/bounty',
           },
           {
-            text: 'Emergency pause',
+            text: 'Emergency stop',
             link: '/safu/emergency',
           },
           {

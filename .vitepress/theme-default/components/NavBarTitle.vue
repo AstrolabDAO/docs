@@ -4,10 +4,30 @@
     :href="$withBase($localePath)"
     :aria-label="`${$siteByRoute.title}, back to home`"
   >
-    <img v-if="$themeConfig.logo" class="logo" :src="$withBase($themeConfig.logo)" alt="Logo" />
+    <img class="logo" :src="isDark ? $withBase($themeConfig.logoDark) : $withBase($themeConfig.logoLight)" alt="Logo" />
     {{ $site.title }}
   </a>
 </template>
+
+<script setup lang="ts">
+  import { ref, onBeforeUnmount } from 'vue';
+
+  const checkDark = () => document.documentElement.classList.contains('dark');
+  const isDark = ref(checkDark());
+
+  const observer = new MutationObserver(() => {
+    isDark.value = checkDark();
+  });
+
+  observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ['class'],
+  });
+
+  onBeforeUnmount(() => {
+    observer.disconnect();
+  });
+</script>
 
 <style scoped>
   .nav-bar-title {

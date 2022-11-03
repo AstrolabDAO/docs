@@ -1,4 +1,4 @@
-Disclaimer Last Updated: 24 May 2022 (note in this text we’re using You. Change for the Docs?)
+Disclaimer Last Updated: 3 November 2022
 
 You are hereby made aware that the risk of loss in DeFi can be extremely high, particularly in the cross-chain environment in which Astrolab Finance operates. The delegated services with which Astrolab interacts include but are not limited to: The holding of crypto assets Trading on decentralized exchanges Staking platform and protocol tokens with or without time-lock Mining liquidity Lending Purchasing insurances Bridging funds from one network to another
 

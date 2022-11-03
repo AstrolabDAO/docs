@@ -3,10 +3,10 @@
 **Sites**
 
 - 🛖 Home: https://astrolab.fi/
-- 💫 App: https://astrolab.fi/app <-- coming soon (december)
+- 💫 App: https://astrolab.fi/app <-- Coming soon (December)
 - 📚 Docs: https://docs.astrolab.fi/
-- ✍️ Blog: https://blog.astrolab.fi/ <-- coming soon, content available on medium
-- 🧮 Analytics: (Coming soon)
+- ✍️ Blog: https://blog.astrolab.fi/ <-- Coming soon, content available on [Medium](https://medium.com/@astrolabfi)
+- 🧮 Analytics: Coming soon
 
 **Socials**
 
@@ -22,6 +22,6 @@
 - 💼 jobs@astrolab.fi
 - 🫶 partnerships@astrolab.fi
 
-**Audits** coming soon
+**Audits** Coming soon
 
-**Contracts** coming soon
+**Contracts** Coming soon

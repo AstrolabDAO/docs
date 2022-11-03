@@ -1,6 +1,6 @@
 # Crates 101
 
-Crates are multichain (or "omni-chain"), multistrategy [ERC4626](https://ethereum.org/en/developers/docs/standards/tokens/erc-4626/) vaults. After users make a Crate deposit, funds are routed to the best farming opportunities available within that Crate’s portfolio, either on the deposit chain or on another remote chain.
+Crates are multichain (or "omni-chain"), multistrategy [ERC-4626](https://ethereum.org/en/developers/docs/standards/tokens/erc-4626/) vaults. After users make a Crate deposit, funds are routed to the best farming opportunities available within that Crate’s portfolio, either on the deposit chain or on another remote chain.
 
 ## Accounting
 

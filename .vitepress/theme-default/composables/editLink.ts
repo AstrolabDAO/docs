@@ -14,7 +14,7 @@ export function useEditLink() {
       : page.value.frontmatter.editLink;
 
     const { repo, docsDir = '', docsBranch = 'master', github = repo } = site.value.themeConfig;
-
+    console.log('docsBranch', docsBranch)
     const { relativePath } = page.value;
 
     if (!showEditLink || !relativePath || !repo) {

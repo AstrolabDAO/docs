@@ -1,3 +1,3 @@
 # Bug bounty
 
-(Coming after deployment)
+Coming after deployment

@@ -17,7 +17,7 @@ To reduce gas fees for users, the protocol uses bulk sending at certain interval
 
 As the protocol evolves, more complex monitoring may be needed to ensure the protocol’s fluidity and integrity. The plan is to use decentralized computation services such as Internet Computer for these purposes. All privileged addresses are validated through governance.
 
-### Where does the name "Crate" come from?
+### Where does the name 'Crate' come from?
 
 Crates are Astrolab’s multi-chain, multi-strategy vaults and the concept is a significant evolution from the classic single-strategy vaults that yield optimizers operate. Astrolab’s team thought using the name ‘Crate’ would be a good fit with the ‘sailing’ theme of Astrolab (which is a navigational tool used by sailors) and to honor the idea of composability.
 

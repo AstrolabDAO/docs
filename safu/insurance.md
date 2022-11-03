@@ -8,15 +8,9 @@ Locked tokens are returned to their owners after the loss has been compensated, 
 
 ![insurance flow chart](/media/asl-insurance-flow.png)
 
----
-
-Example: The ‘Aggressive’ $ASL staking pool insures CrateA, CrateB and CrateC. Kaneda has staked $50K of $ASL in the pool. The pool totals $1M of $ASL and earns $500K per year on average.
-
-One of the strategies of CrateA experiences an unexpected loss. The Aave fork it was investing in had a faulty oracle resulting in a $100K loss of funds, representing 5% of the total assets managed by the Crate. The book value and market price for the Crate token immediately decrease by 5%.
-
-50% of the pool's tokens are locked, and their associated performance fees are sent to CrateA. After 4 months and 24 days, $100K has been sent to the Crate. Now that the loss has been compensated, Kaneda can unlock all of his tokens.
-
----
+> Example: The ‘Aggressive’ $ASL staking pool insures CrateA, CrateB and CrateC. Kaneda has staked $50K of $ASL in the pool. The pool totals $1M of $ASL and earns $500K per year on average.
+<br/><br/>One of the strategies of CrateA experiences an unexpected loss. The Aave fork it was investing in had a faulty oracle resulting in a $100K loss of funds, representing 5% of the total assets managed by the Crate. The book value and market price for the Crate token immediately decrease by 5%.
+<br/><br/>50% of the pool's tokens are locked, and their associated performance fees are sent to CrateA. After 4 months and 24 days, $100K has been sent to the Crate. Now that the loss has been compensated, Kaneda can unlock all of his tokens.
 
 Astrolab’s insurance mechanism protects the value of $ASL and safeguards the staker’s holdings by not auctioning governance tokens on the open market as Aave does. Because the affected Crate’s loss is compensated, its APR will increase, therefore making it more attractive to new users. Compensation isn’t done immediately, but the insurance mechanism is scalable as affected crates can be made whole again after an unexpected loss.
 

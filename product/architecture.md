@@ -2,7 +2,7 @@
 
 Astrolab's crates are composed of multiple contracts interconnected to allow composability and flexibility:
 
-- **Crate**: [ERC4626](https://ethereum.org/en/developers/docs/standards/tokens/erc-4626/) vault token contract. It is the main entry point for the public and holds the accounting logic for the crate.
+- **Crate**: [ERC-4626](https://ethereum.org/en/developers/docs/standards/tokens/erc-4626/) vault token contract. It is the main entry point for the public and holds the accounting logic for the crate.
 - **Router**: Contract in charge of dispatching funds between chains and protocols, and interacting with bridges.
 - **Bridge**: Third-party contract used to send value and/or messages between chains.
 - **VaultManager**: Contract managing the allocation between Vaults.

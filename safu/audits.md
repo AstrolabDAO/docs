@@ -1,3 +1,3 @@
 # Audits
 
-(Coming soon)
+Coming soon

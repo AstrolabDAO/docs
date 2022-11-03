@@ -6,6 +6,8 @@ Astrolab’s contracts, therefore, contain a fuse function that allows for pausi
 
 The wallets listed below have permission to pause Astrolab’s contracts. If you find or become aware of any issues, please contact the wallet holders immediately.
 
+Wallets will be listed after launch.
+
 - `[permissions] [address] [socials] [role] [since 01/01/2000]`
 - `[permissions] [address] [socials] [role] [since 01/01/2000]`
 - `[permissions] [address] [socials] [role] [since 01/01/2000]`
