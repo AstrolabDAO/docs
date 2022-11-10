@@ -10,7 +10,7 @@ These features will be supported by innovative tokenomics creating a positive fe
 
 [Click here to learn more about Astrolab's flywheel tokenomics.](/tokenomics/flywheel.html)
 
-# Astrolab's Crates
+## Astrolab's Crates
 
 Crates are the main product of Astrolab. They correspond to multichain, multipool vaults allocating assets across EVM chains. They are composed of different underlying assets, such as USDC, ETH, FRAX, and have different risk profiles, thereby allowing users to optimize their risk exposure.
 
@@ -18,7 +18,7 @@ After users have deposited their assets, they receive a proportional amount of C
 
 [Click here to learn more about Crate design.](/product/crates101.html)
 
-# What is $ASL?
+## What is $ASL?
 
 $ASL is the governance token for Astrolab Finance. The token is used to secure the protocol, distribute its revenue to holders and ensure the safety of the staked capital.
 
