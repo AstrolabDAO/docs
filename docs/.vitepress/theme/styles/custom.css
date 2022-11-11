@@ -1,0 +1,85 @@
+.action .VPButton,
+.action .item.item.item:hover {
+  color: var(--c-brand-text);
+}
+
+/* homePage image */
+.VPHero .image .VPImage {
+  width: 100px;
+  height: 100px;
+}
+
+.language- {
+  background-color: rgb(21, 21, 21) !important;
+}
+h1, h2, h3, h4, h5, h6, strong, b {
+  font-weight: 600;
+}
+
+/* homePage Buttons */
+.actions {
+  justify-content: center !important;
+}
+
+.actions .action .VPButton{
+  border-radius: 5px !important;
+  width: 10rem;
+  height: 3rem;
+  font-weight: 500;
+  line-height: 46px;
+  font-size: 1rem;
+}
+
+/* logo title */
+.VPNavBarTitle .title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.VPHero .container .main .name .clip {
+  font-size: 3rem;
+}
+
+.VPHero .container .main .name {
+  min-width: 100% !important;
+}
+
+.VPHero .container .main .text{
+  line-height: 1.2;
+  font-size: 1.6rem;
+  font-weight: 400;
+  min-width: 100% !important;
+ }
+
+
+@media (min-width: 960px) {
+  /* force header bg color */
+  .dark .VPNav.no-sidebar,.dark .VPNavBar.has-sidebar .content {
+    background-color: var(--vp-c-black) !important;
+  }
+
+  .VPHero .container {
+    flex-direction: column-reverse;
+  }
+
+  .VPHero .container .image .image-container {
+    /* width: 392px; */
+    /* height:  */
+    height: 10rem;
+    max-height: 40% !important;
+    transform: unset;
+  }
+
+  .VPHero .container .image {
+    text-align: center;
+    justify-content: center !important;
+  }
+
+  .VPHero .container .main {
+    width: 100%;
+    min-width: 100% !important;
+    text-align: center;
+    justify-content: center !important;
+  }
+
+}

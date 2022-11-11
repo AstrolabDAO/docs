@@ -1,10 +1,15 @@
 export default {
-  // base: '/',
+  base: '/',
   title: 'Astrolab',
   lang: 'en-US',
   description: 'Omnichain yield aggregator',
   themeConfig: {
-
+    socialLinks: [
+      { icon: 'discord', link: 'https://discord.gg/UpYeDkWSff'},
+      { icon: 'twitter', link: 'https://twitter.com/AstrolabFi'},
+      { icon: { svg: '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1.2em" height="1.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16" data-v-8e6ab816=""><g fill="currentColor"><path d="M9.025 8c0 2.485-2.02 4.5-4.513 4.5A4.506 4.506 0 0 1 0 8c0-2.486 2.02-4.5 4.512-4.5A4.506 4.506 0 0 1 9.025 8zm4.95 0c0 2.34-1.01 4.236-2.256 4.236c-1.246 0-2.256-1.897-2.256-4.236c0-2.34 1.01-4.236 2.256-4.236c1.246 0 2.256 1.897 2.256 4.236zM16 8c0 2.096-.355 3.795-.794 3.795c-.438 0-.793-1.7-.793-3.795c0-2.096.355-3.795.794-3.795c.438 0 .793 1.699.793 3.795z"></path></g></svg>'}, link: 'https://medium.com/@AstrolabFi'},
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    ],
     docsDir: 'docs',
     repo: 'https://github.com/AstrolabFinance',
     github: 'https://github.com/AstrolabFinance/docs',
@@ -12,7 +17,10 @@ export default {
     medium: 'https://medium.com/@AstrolabFi',
     telegram: 'https://t.me/astrolab',
     discord: 'https://discord.gg/UpYeDkWSff',
-    logo: '/logo.png',
+    logo: {
+      dark: '/logo-dark.png',
+      light: '/logo-light.png'
+    },
     docsBranch: 'main',
     editLinks: true,
     editLinkText: 'Sources',
@@ -30,7 +38,7 @@ export default {
       // disableUserPersonalization?: boolean
       // initialQuery?: string
     },
-    nav: getNav(),
+    // nav: getNav(),
     sidebar: getSidebar(),
     footer: {
       message: 'MIT License',
@@ -42,17 +50,17 @@ export default {
 
 function getNav() {
   return [
-    {
-      title: "App",
-      text: "App",
-      link: "https://astrolab.fi/app",
-    // items: ["child-1", "child-2"],
-    },
-    {
-      title: "Github",
-      text: "Github",
-      link: "https://github.com/AstrolabFinance",
-    }
+    // {
+    //   title: "App",
+    //   text: "App",
+    //   link: "https://astrolab.fi/app",
+    // // items: ["child-1", "child-2"],
+    // },
+    // {
+    //   title: "Github",
+    //   text: "Github",
+    //   link: "https://github.com/AstrolabFinance",
+    // }
   ];
 }
 
