@@ -2,7 +2,8 @@ import { SearchPlugin } from 'vitepress-plugin-search';
 import { defineConfig } from "vite";
 
 const options = {
-    preset: "match"
+    preset: "match",
+    tokenize: "forward"
 };
 
 export default defineConfig({
